@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calendar</title>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery-migrate-1.2.1.js"></script>
+
+  <!--[if lt IE 9]>
+  <html class="lt-ie9">
+  <div style=' clear: both; text-align:center; position: relative;'>
+    <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+      <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+    </a>
+  </div>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+  <!--========================================================
+                            HEADER
+  =========================================================-->
+  <header class="subpage">
+    <div id="stuck_container" class="stuck_container">
+      <div class="container">
+        <div class="brand">
+          <img src="images/uhs_logo.png" class="uhslogo" /><br />
+          <h1 class="brand_name">
+            <a href="./">Utica High School</a>
+          </h1>
+        </div>
+        <div class="header-wrap">
+          <ul class="inline-list social-list">
+            <li><a href="#" class="fa fa-twitter"></a></li>
+            <li><a href="#" class="fa fa-facebook"></a></li>
+            <li><a href="#" class="fa fa-google-plus"></a></li>
+            <li><a href="#" class="fa fa-rss"></a></li>
+          </ul>
+          <nav class="nav">
+            <ul class="sf-menu" data-type="navbar">
+              <li>
+                <a href="./">Main</a>
+              </li>
+              <li>
+                <a href="counseling.htm">Counseling</a>
+              </li>
+              <li>
+                <a href="seniors.html">Seniors</a>
+              </li>
+              <li>
+                <a href="staff.html">Staff</a>
+              </li>
+              <li>
+                <a href="mediacenter.html">Media Center</a>
+              </li>
+            </ul>
+          </nav>
+          <address>
+            <a href="callto:#">586.797.2200</a>
+          </address>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--========================================================
+                            CONTENT
+  =========================================================-->
+  <main>
+   <!-- content -->
+   <section class="well4 bg-3">
+     <div class="container wow fadeIn">
+      <h2 class="center">Upcoming Events</h2>
+      <div class="row">
+        <ul class="news-list mod offset">
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-08">
+                  <span class="day">08</span>
+                  <span class="month">September</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>First Day of School</strong></h6>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-15">
+                  <span class="day">15</span>
+                  <span class="month">September</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-18">
+                  <span class="day">18</span>
+                  <span class="month">September</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Homecoming Parade</strong></h6>
+                <p>4:00 p.m.</p><br />
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-18">
+                  <span class="day">18</span>
+                  <span class="month">September</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Homecoming Game</strong></h6>
+                <p>7:00 p.m. (vs. Anchor Bay)</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-19">
+                  <span class="day">19</span>
+                  <span class="month">September</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Homecoming Dance</strong></h6>
+                <p>7:30 p.m. - 10:30 p.m.</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-24">
+                  <span class="day">24</span>
+                  <span class="month">September</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Open House</strong></h6>
+                <p>7:00 p.m. in the Auditorium</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-25">
+                  <span class="day">25</span>
+                  <span class="month">September</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Student Advisory Board Meeting</strong></h6>
+                <p>1:15 p.m. during 6th Hour</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-10-12">
+                  <span class="day">12</span>
+                  <span class="month">October</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-10-14">
+                  <span class="day">14</span>
+                  <span class="month">October</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>PSAT</strong></h6>
+                <p>Juniors</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-09-20">
+                  <span class="day">20</span>
+                  <span class="month">October</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior Meeting</strong></h6>
+                <p>2nd Hour</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-11-03">
+                  <span class="day">03</span>
+                  <span class="month">November</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Professional Development</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-11-09">
+                  <span class="day">09</span>
+                  <span class="month">November</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-11-19">
+                  <span class="day">19</span>
+                  <span class="month">November</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Early Dismissal</strong></h6>
+                <p>Evening Conferences</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-11-25">
+                  <span class="day">25-27</span>
+                  <span class="month">November</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Thanksgiving Break</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-11-30">
+                  <span class="day">30</span>
+                  <span class="month">November</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Classes Resume</strong></h6>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-12-14">
+                  <span class="day">14</span>
+                  <span class="month">December</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the Main Office</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2015-12-23">
+                  <span class="day">23-01</span>
+                  <span class="month">Dec.-Jan.</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Winter Break</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-01-04">
+                  <span class="day">04</span>
+                  <span class="month">January</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Classes Resume</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-01-11">
+                  <span class="day">11</span>
+                  <span class="month">January</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-01-18">
+                  <span class="day">18</span>
+                  <span class="month">January</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Martin Luther King Jr. Day</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-01-20">
+                  <span class="day">20</span>
+                  <span class="month">January</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Early Dismissal</strong></h6>
+                <p>1st and 2nd Hour Exams</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-01-21">
+                  <span class="day">21</span>
+                  <span class="month">January</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Early Dismissal</strong></h6>
+                <p>3rd and 4th Hour Exams</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-01-22">
+                  <span class="day">22</span>
+                  <span class="month">January</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Early Dismissal</strong></h6>
+                <p>5th and 6th Hour Exams</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-01-22">
+                  <span class="day">22</span>
+                  <span class="month">January</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>1st Semester and 2nd Quarter Ends</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-02-08">
+                  <span class="day">08</span>
+                  <span class="month">February</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-02-15">
+                  <span class="day">15-19</span>
+                  <span class="month">February</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Mid-Winter Break</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-02-22">
+                  <span class="day">22</span>
+                  <span class="month">February</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Classes Resume</strong></h6>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-03-08">
+                  <span class="day">08</span>
+                  <span class="month">March</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Presidential Primary</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-03-09">
+                  <span class="day">09</span>
+                  <span class="month">March</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior All-Night Party Meeting</strong></h6>
+                <p>7:00 p.m. in the ECC Room</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-03-09">
+                  <span class="day">09</span>
+                  <span class="month">March</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>9th Grade Curriculum Night</strong></h6>
+                <p>7:00 p.m. in the Auditorium</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-03-14">
+                  <span class="day">14</span>
+                  <span class="month">March</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-03-21">
+                  <span class="day">21</span>
+                  <span class="month">March</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior Speech Sign-Up Begins</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-03-25">
+                  <span class="day">25</span>
+                  <span class="month">March</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Good Friday</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-01">
+                  <span class="day">01</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>3rd Quarter Ends</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-04">
+                  <span class="day">04-08</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Spring Break</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-11">
+                  <span class="day">11</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Classes Resume</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-11">
+                  <span class="day">11</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-12">
+                  <span class="day">12</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior Speech Sign-Up Ends</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-12">
+                  <span class="day">12</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>SAT Day</strong></h6>
+                <p>Juniors Only</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-13">
+                  <span class="day">13</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Work Keys, PSAT Day</strong></h6>
+                <p>All Students</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-04-20">
+                  <span class="day">20</span>
+                  <span class="month">April</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior Speech</strong></h6>
+                <p>Main Office from 12:00 p.m. to 2:30 p.m.</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-05-03">
+                  <span class="day">03</span>
+                  <span class="month">May</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>MANDATORY Parent-Senior Meeting</strong></h6>
+                <p>6:00 p.m. - 7:00 p.m. or 7:30 p.m. - 8:30 p.m.</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-05-09">
+                  <span class="day">09</span>
+                  <span class="month">May</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Sounding Board Meeting</strong></h6>
+                <p>9:30 a.m. in the ECC Room</p>
+
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-05-12">
+                  <span class="day">12</span>
+                  <span class="month">May</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior's Honor Night (Invitation Only)</strong></h6>
+                <p>7:00 p.m. in the Auditorium</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-05-27">
+                  <span class="day">27-30</span>
+                  <span class="month">May</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>No School</strong></h6>
+                <p>Memorial Day Weekend</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-02">
+                  <span class="day">02</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior's Final Exams</strong></h6>
+                <p>4th, 5th, and 6th Hours</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-03">
+                  <span class="day">03</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior's Final Exams</strong></h6>
+                <p>1st, 2nd, and 3rd Hours</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-07">
+                  <span class="day">07</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Department Recognition Awards Breakfast (Invitation Only)</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-11">
+                  <span class="day">11</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Class of 2016 Graduation</strong></h6>
+                <p>10:00 a.m. at the Palace of Auburn Hills</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-11">
+                  <span class="day">11</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Senior All-Night Party</strong></h6>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-14">
+                  <span class="day">14</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Early Dismissal</strong></h6>
+                <p>1st and 2nd Hour Final Exams</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-15">
+                  <span class="day">15</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Early Dismissal</strong></h6>
+                <p>3rd and 4th Hour Final Exams</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInLeft" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-16">
+                  <span class="day">16</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Early Dismissal</strong></h6>
+                <p>5th and 6th Hour Final Exams</p>
+              </div>
+            </div>
+          </li>
+          <li class="grid_6 wow fadeInRight" data-wow-delay=".9s">
+            <div class="row">
+              <div class="grid_2 center">
+                <time datetime="2016-06-16">
+                  <span class="day">16</span>
+                  <span class="month">June</span>
+                </time>
+              </div>
+              <div class="grid_4 center">
+                <h6><strong>Last Day of School</strong></h6>
+                <p>4th Quarter Ends</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+     </div>
+   </section>
+   <!-- /content -->
+  </main>
+  <!--========================================================
+                            FOOTER
+  =========================================================-->
+  <footer class="subfooter">
+    <div class="container">
+      <div class="row">
+        <div class="grid_4">
+          <div class="footer-brand">
+            <h1 class="brand_name">
+              <a href="./">Utica High School</a>
+            </h1>
+          </div>
+        </div>
+        <div class="grid_8">
+          <div class="copyright">
+            © <span id="copyright-year"></span>
+            <a href="index-5.html">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

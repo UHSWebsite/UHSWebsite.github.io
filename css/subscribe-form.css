@@ -1,0 +1,98 @@
+/*==================     Subscribe Form     ======================*/
+.subscribe-form {
+  position: relative;
+  display: block; }
+  .subscribe-form .up {
+    margin-top: -5px; }
+  .subscribe-form label {
+    display: inline-block;
+    position: relative;
+    padding: 18.5px 10px 18.5px;
+    background: transparent;
+    border: 1px solid #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .subscribe-form label.name {
+    width: 100%; }
+  .subscribe-form label.email {
+    width: 100%;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; }
+  .subscribe-form input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    vertical-align: baseline;
+    box-shadow: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 22px;
+    height: 24px;
+    padding-left: 9px; }
+  .subscribe-form a[data-type="submit"] {
+    margin-left: 7px;
+    display: inline-block;
+    padding: 19px 31px;
+    text-align: center;
+    background: #FFF;
+    color: #0dd995;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px; }
+    .subscribe-form a[data-type="submit"]:hover {
+      background: #2b2b2b; }
+    .subscribe-form a[data-type="submit"]:active {
+      background: #fff; }
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .subscribe-form a[data-type="submit"] {
+        padding: 19px 23px;
+        font-size: 18px; } }
+    @media (min-width: 768px) and (max-width: 979px) {
+      .subscribe-form a[data-type="submit"] {
+        float: right;
+        margin-right: 129px; }
+        .subscribe-form a[data-type="submit"] .up {
+          margin-top: 0 !important; } }
+  @media (max-width: 767px) {
+    .subscribe-form {
+      margin-top: 50px; } }
+
+.subscribe-form .error, .subscribe-form .success {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font-size: 10px;
+  line-height: 12px; }
+.subscribe-form .error {
+  color: #f00;
+  overflow: hidden;
+  height: 0;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+.subscribe-form label.invalid .error {
+  height: 21px; }
+.subscribe-form .success {
+  display: none;
+  color: #fff; }
+
+@media (max-width: 979px) {
+  .subscribe-form label.name,
+  .subscribe-form label.email {
+    display: block;
+    width: 100%; }
+  .subscribe-form * + label,
+  .subscribe-form * + a[data-type='submit'] {
+    margin-top: 10px; } }
