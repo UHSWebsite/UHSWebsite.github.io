@@ -64,3 +64,6 @@ configs/
 dwsync.xml
 dw_php_codehinting.config
 *.mno
+
+# Excel Spreadsheet #
+Staff List.xlsx
