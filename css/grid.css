@@ -365,7 +365,8 @@ table {
 
     .container .rowtl {
       width: 300px;
-      padding: 0 15px; }
+      padding: 0 15px;
+      margin-left: 0;}
 
   .row {
     margin-left: 0; } }
