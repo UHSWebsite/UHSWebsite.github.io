@@ -1035,8 +1035,8 @@ main {
   padding-bottom: 138px; }
 
 .well6 {
-  padding-top: 140px;
-  padding-bottom: 139px; }
+  padding-top: auto;
+  padding-bottom: auto; }
 
 .well-p {
   width: 1500px;
