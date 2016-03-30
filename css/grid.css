@@ -363,6 +363,10 @@ table {
     width: 300px;
     padding: 0 15px; }
 
+    .container .rowtl {
+      width: 300px;
+      padding: 0 15px; }
+
   .row {
     margin-left: 0; } }
 .container:before, .container-fluid:before, .row:before, .container:after, .container-fluid:after, .row:after {
