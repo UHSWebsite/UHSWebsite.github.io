@@ -74,7 +74,7 @@ h4 {
   font-weight: 600; }
   h4.mod {
     font-family: "Roboto", sans-serif;
-    color: #0dd995;
+    color: #000000;
     font-weight: 700; }
 
 h5 {
@@ -1035,8 +1035,8 @@ main {
   padding-bottom: 138px; }
 
 .well6 {
-  padding-top: auto;
-  padding-bottom: auto; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .well-p {
   width: 1500px;
