@@ -37,6 +37,14 @@ h2 {
   font-size: 60px;
   line-height: 60px;
   font-weight: 700; }
+
+  h2.mod3 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    position: absolute; }
+
+
   h2.mod1 {
     font-size: 90px;
     line-height: 100px;
@@ -490,7 +498,7 @@ nav {
     left: 54px;
     top: 71px;
     font-size: 60px;
-    color: #0dd995; }
+    color: #cc6600; }
   @media (max-width: 767px) {
     .c-block {
       padding-left: 29px; }
@@ -509,7 +517,7 @@ nav {
     position: absolute;
     left: 0;
     top: 4px;
-    color: #0dd995; }
+    color: #000; }
   .marked-list li + li {
     margin-top: 18px; }
 
@@ -529,7 +537,7 @@ nav {
   padding: 22px 30px 23px 29px;
   border-radius: 2px; }
   .btn:hover {
-    background: #0dd995; }
+    background: #7c7c7c; }
   .btn:active {
     background: #121212; }
   .btn.bg-secondary:hover {
@@ -542,9 +550,9 @@ nav {
 .btn2 {
   line-height: 20px; }
   .btn2:hover {
-    color: #2b2b2b; }
+    color: #cc6600; }
   .btn2:active {
-    color: #454545; }
+    color: #fff; }
   .btn2:after {
     font-family: "FontAwesome";
     position: relative;
@@ -568,7 +576,7 @@ nav {
   background: #fff; }
 
 .bg-2 {
-  background: whitesmoke; }
+  background: #cc6600; }
 
 .bg-3 {
   background: #cc6600; }
