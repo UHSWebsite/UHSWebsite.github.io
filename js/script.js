@@ -89,7 +89,7 @@ include('js/jquery.easing.1.3.js');
  ========================================================*/
 ;
 (function ($) {
-    include('js/superfish.js');    
+    include('js/superfish.js');
 })(jQuery);
 
 /* Navbar
@@ -145,7 +145,7 @@ include('js/jquery.easing.1.3.js');
     var o = $('#contact-form');
     if (o.length > 0) {
         include('js/modal.js');
-        include('js/TMForm.js'); 
+        include('js/TMForm.js');
 
         if($('#contact-form .recaptcha').length > 0){
         	include('//www.google.com/recaptcha/api/js/recaptcha_ajax.js');
@@ -205,7 +205,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 =============================================*/
 ;(function ($) {
     include('js/jquery.rd-parallax.js');
-})(jQuery); 
+})(jQuery);
 
 /* Subscribe Form
  ========================================================*/
@@ -231,7 +231,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         var o = $('#timetable');
         if (o.length > 0) {
             if( $(window).width() > 1199 && !isDotted){
-                var maxLine = 30;
+                var maxLine = 24;
                 o.find('tr').each(function(){
                     var text = '';
                     if(text.length < maxLine){
@@ -242,8 +242,8 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
                     }
                 });
                 isDotted = true;
-            } 
-            else 
+            }
+            else
             if($(window).width() < 1199){
                 isDotted = false;
                 var j = 0;
