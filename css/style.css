@@ -238,8 +238,7 @@ table {
     overflow: hidden; }
   table td:last-child {
     position: relative;
-    z-index: 100;
-    background: #46dea4; }
+    z-index: 100; }
   table tbody {
     margin: 0 auto;
     display: block; }
