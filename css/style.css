@@ -916,6 +916,18 @@ nav {
     height: 100%;
     background-position: center center;
     will-change: transform; }
+
+@media (max-width: 767px) {
+  .parallax_image, .parallax_pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-position: -830px;
+    will-change: transform; }
+}
+
   .parallax_image {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1083,6 +1095,12 @@ main {
 .parallax-3 {
   padding-top: 82px;
   padding-bottom: 76px; }
+
+  @media (max-width: 767px) {
+    .parallax-3 {
+      align-items: left;
+    }
+  }
 
 .offset3 {
   padding-top: 55px; }
