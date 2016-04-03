@@ -163,7 +163,8 @@ table {
   width: 470px; }
 .container .grid_6 {
   width: 570px;
-  margin-bottom: 10px;}
+  margin-bottom: 10px;
+  margin-right: 10px;}
 .container .grid_6tl {
     width: 570px;
     margin: 0 auto;
