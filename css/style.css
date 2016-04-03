@@ -1076,7 +1076,9 @@ main {
 
 .parallax-2 {
   padding-top: 151px;
-  padding-bottom: 162px; }
+  padding-bottom: 162px;
+  background-color: #000;
+  align-items: right;}
 
 .parallax-3 {
   padding-top: 82px;
