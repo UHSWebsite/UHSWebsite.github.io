@@ -164,7 +164,8 @@ table {
 .container .grid_6 {
   width: 570px;
   margin-bottom: 10px;
-  margin-right: 10px;}
+  margin-right: 10px;
+  }
 .container .grid_6tl {
     width: 570px;
     margin: 0 auto;
@@ -188,7 +189,7 @@ table {
 .container .preffix_3 {
   margin-left: 330px; }
 .container .preffix_4 {
-  margin-left: 430px; }
+  margin-left: 405px; }
 .container .preffix_5 {
   margin-left: 530px; }
 .container .preffix_6 {
