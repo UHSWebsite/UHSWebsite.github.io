@@ -141,8 +141,7 @@ table {
 .container, .container-fluid {
   width: 1170px; }
 
-.container .row {
-  margin-left: -30px; }
+
 
   .container .rowtl {
     margin-left: 0 auto;
@@ -151,8 +150,7 @@ table {
 
 .container [class*="grid_"] {
   float: left;
-  min-height: 1px;
-  margin-left: 30px; }
+  min-height: 1px; }
 .container .grid_1 {
   width: 70px; }
 .container .grid_2 {
