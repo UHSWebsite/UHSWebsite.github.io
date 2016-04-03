@@ -1185,3 +1185,7 @@ margin-right: auto;
 display: block;
 width: auto;
 }
+
+.clubfloatright{
+  float: right;
+}
