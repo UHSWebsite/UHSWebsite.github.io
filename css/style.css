@@ -916,7 +916,10 @@ nav {
     height: 100%;
     background-position: center center;
     will-change: transform; }
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0d58c2d... abb
   .parallax_image {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1084,12 +1087,6 @@ main {
 .parallax-3 {
   padding-top: 82px;
   padding-bottom: 76px; }
-
-  @media (max-width: 767px) {
-    .parallax-3 {
-      align-items: left;
-    }
-  }
 
 .offset3 {
   padding-top: 55px; }
