@@ -1239,6 +1239,10 @@ figure.slider figure:hover figcaption {
 		font-size: 1.2rem;
     width: 90%;
 	}
+  div#captioned-gallery {
+  	width: 90%;
+  	overflow: hidden;
+    margin: 0 auto;}
 }
 
 @keyframes slidy {
