@@ -1200,8 +1200,9 @@ width: auto;
 }
 
 div#captioned-gallery {
-	width: 100%;
+	width: 50%;
 	overflow: hidden;
+  margin: 0 auto;
 }
 figure { margin: 0; }
 figure.slider {
