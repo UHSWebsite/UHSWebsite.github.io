@@ -1229,3 +1229,12 @@ width: auto;
     padding: 2px 8px;
     font-size: 11px;
     transition: all 0.3s ease-in-out; }
+
+    .column,
+    .columns {
+      width: 100%;
+      float: left;
+      box-sizing: border-box; }
+
+      .four.columns {
+        width: 30.6666666667%; }
