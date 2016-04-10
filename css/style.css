@@ -1237,6 +1237,7 @@ figure.slider figure:hover figcaption {
 @media screen and (max-width: 767px) {
 	figure.slider figure figcaption {
 		font-size: 1.2rem;
+    width: 90%;
 	}
 }
 
