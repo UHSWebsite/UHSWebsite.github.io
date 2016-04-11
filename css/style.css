@@ -1267,7 +1267,7 @@ figure.slider figure:hover figcaption {
 .single-accordion {
   height: 35px;
   overflow: hidden;
-  background: #C0392B;
+  background: #000;
   color:#fff;
   margin-bottom: 5px;
   padding: 10px;
