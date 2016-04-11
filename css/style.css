@@ -1256,3 +1256,42 @@ figure.slider figure:hover figcaption {
 	95% { left: -300%; }
 	100% { left: -400%; }
 }
+
+
+
+.accordion {
+  width: 650px;
+  padding: 25px;
+}
+
+.single-accordion {
+  height: 35px;
+  overflow: hidden;
+  background: #C0392B;
+  color:#fff;
+  margin-bottom: 5px;
+  padding: 10px;
+  -webkit-transition: all 1s;
+}
+
+.single-accordion:hover {
+  height: 120px;
+  border-radius: 10px;
+  -webkit-transition: all 1s;
+}
+
+.single-accordion h2:hover { cursor: pointer; }
+
+.single-accordion h2 {
+  color: #ccc;
+  font-size: 30px;
+  font-variant: small-caps;
+  line-height: 35px;
+}
+
+.single-accordion p {
+  line-height: 25px;
+  color: #fff;
+  text-align: justify;
+  padding: 10px;
+}
