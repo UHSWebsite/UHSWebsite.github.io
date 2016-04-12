@@ -1287,6 +1287,7 @@ figure.slider figure:hover figcaption {
   font-size: 25px;
   font-variant: small-caps;
   line-height: 35px;
+  text-align: center;
 }
 
 .single-accordion p {
@@ -1294,4 +1295,5 @@ figure.slider figure:hover figcaption {
   color: #fff;
   text-align: justify;
   padding: 10px;
+  text-align: center;
 }
