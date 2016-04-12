@@ -1275,7 +1275,7 @@ figure.slider figure:hover figcaption {
 }
 
 .single-accordion:hover {
-  height: 120px;
+  height: auto;
   border-radius: 10px;
   -webkit-transition: all 1s;
 }
