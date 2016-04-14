@@ -1303,3 +1303,9 @@ figure.slider figure:hover figcaption {
   height: 359.55px;
 }
 }
+
+@media (max-width: 979px) {
+  .accordion{
+    width: auto;
+  }
+}
