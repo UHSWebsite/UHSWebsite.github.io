@@ -1305,10 +1305,11 @@ figure.slider figure:hover figcaption {
 }
 
 @media (max-width: 979px) {
-  .accordion{
+  .accordion {
     width: auto;
   }
-  .single-accordion h2 {
-    font-size: 10px;
-  }
 }
+@media (max-width: 425px) {
+.single-accordion h2 {
+  font-size: 10px;
+}}
