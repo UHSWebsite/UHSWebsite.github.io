@@ -1297,3 +1297,9 @@ figure.slider figure:hover figcaption {
   padding: 10px;
   text-align: center;
 }
+
+@media (min-width: 767px) {
+.clubphoto {
+  height: 359.55px;
+}
+}
