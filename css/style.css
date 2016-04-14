@@ -1308,4 +1308,7 @@ figure.slider figure:hover figcaption {
   .accordion{
     width: auto;
   }
+  .single-accordion h2 {
+    font-size: 10px;
+  }
 }
