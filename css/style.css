@@ -1290,6 +1290,10 @@ figure.slider figure:hover figcaption {
   text-align: center;
 }
 
+.single-accordion h5 {
+  color: #cc6600;
+}
+
 .single-accordion p {
   line-height: 20px;
   color: #fff;
