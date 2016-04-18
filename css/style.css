@@ -1317,3 +1317,10 @@ figure.slider figure:hover figcaption {
 .single-accordion h2 {
   font-size: 10px;
 }}
+
+img.theatre {
+  height: 500px;
+  width: 313px;
+  margin: 0 auto;
+
+}
