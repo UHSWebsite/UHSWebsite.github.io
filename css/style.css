@@ -916,11 +916,10 @@ nav {
   overflow: hidden; }
   .parallax_image, .parallax_pattern {
     position: absolute;
-    top: 0;
     left: 0;
     right: 0;
     height: 100%;
-    background-position: center center;
+    background-position: 30% 0px;
     will-change: transform; }
   .parallax_image {
     background-repeat: no-repeat;
